@@ -1,15 +1,18 @@
 /*Mobile View*/
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 599px) {
   .navbar a {
     padding: 10px;
     font-size: 14px;
   }
 
 /*Tablet View*/
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
   .navbar a {
     padding: 15px;
     font-size: 16px;
+    display:flex;
+     flex-direction: column;
+     align-items: center;
   }
 }
 /*Desktop View*/
@@ -17,6 +20,9 @@
   .navbar a {
     padding: 20px;
     font-size: 18px;
+        display:flex;
+        flex-direction: row;
+        align-items: center;
   }
 }
 /*Large Desktop View*/
@@ -24,11 +30,17 @@
   .navbar a {
     padding: 25px;
     font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
 }/*Extra Large Desktop View*/
 @media only screen and (min-width: 1600px) {
   .navbar a {
     padding: 30px;
     font-size: 22px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
 }
